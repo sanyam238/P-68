@@ -1,18 +1,21 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
+
 <head>
-     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.
-min.css">
-    <script src="main.js"></script>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <title>Hogwarts school website??????</title>
-    </head>
-    <body>
-    <nav class="navbar-inverse my_nav_bar">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  
+    <div class="container">
+         <nav class="navbar-inverse my_nav_bar">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
                 <span class="icon-bar"></span>
@@ -24,10 +27,10 @@ min.css">
         <div class="collapse navbar-collapse" id="myNavBar" width:100%;>
             <ul class="nav navbar-nav">
                 <li><a href="#campus life">Campus life</a></li>
-                <li><a href="#achievments">Achievments</a></li>
+                <li><a href="#achievements">Achievements</a></li>
                 <li><a href="#whats new">What's New</a></li>
                 <li><a href="#alumni">Alumni</a></li>
-                <li><a href="#contact us">Contact Us</a></li>
+                <li><a href="#contact_us">Contact Us</a></li>
             </ul>
         </div>
     </nav>
@@ -38,26 +41,110 @@ min.css">
             <iframe width="100%" height="1000px" src="https://www.youtube.com/embed/t_L3omezahA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
+        <div class="page-header" id="campus life">
+            <h2 class="text-capitalize">Campus Life</h2>
+
+            <div class="row">
+                
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="playground.jpg">
+                    <h4 class="text-capitalize"><kbd>school playground</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was established in 1980</h5>
+                    <p class="text-muted text-left">the playground is where everyone can relax and play after the lessons</p>
+                </div>
+                
+                <div class="travel_mainDiv">
+    
+                    <img class="img-responsive" src="library.jpg">
+                    <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                    <hr>
+                    
+                    <h5 class="text-capitalize text-success text-left">Was built in 2016</h5>
+                    <p class="text-muted text-left">The memorable library is shaped like a tree house.With 500+ amazing books the library is one of the best places of the entire school</p>
+
+                </div>
+                
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="audittorium.jpg">
+                    
+                    <h4 class="text-capatalize"><kbd>school auditorium</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was built in 1982</h5>
+                    
+                    <p class="text-left text-muted">the school auditorium is where everyone gathers for the end of week assembly where the headteacher Mrs Dando tells the stars of the week (best child of the week) and news</p>
+                </div>
+
+            </div>
+        </div>
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <section id="contact us">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7217.919536628216!2d55.317417000000006!3d25.23828!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6b173d5880a201e!2sDESS%20-%20Dubai%20English%20Speaking%20School!5e0!3m2!1sen!2sro!4v1628920934327!5m2!1sen!2sro" width="100%" height="750" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+            longest british school in uae <i class="fa fa-sort-desc"></i>
+        </div>
+        <!--1st Achievement-->
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="dess.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">longest british school in the uae
+                </h5>
+                <p>DESS is very proud to be the oldest British school in the United Arab Emirates, established in 1963 by the British Embassy on a site gifted by Sheikh Rashid, former Ruler of Dubai.</p>
+            </div>
+        </div>
+        <!--2nd Achievement-->
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+           won bsme under-11 games<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement2" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                
+                <img src="9-BSME_schools_awards-7.jpg" class="img-responsive img-thumbnail">
+            </div>
+            
+            <div class="movie_text col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <h5 class="text-success text-left text-capitalize">won bsme under-11 games
+                </h5>
+                <p>There was a massive presence at Kings’ School Al Barsha as teams from across the region descended on Dubai for the BSME Under-11 Large Games.
+
+Fifteen schools from the UAE, Bahrain, Oman and Saudi Arabia joined the hosts for the three-day event which saw pupils test themselves in various sports.
+
+Basketball, football, swimming, netball and athletics were the five disciplines they took part in and, despite stern competition, there was some exceptional team and individual displays.
+
+There were plenty of reasons for the UAE to celebrate with two of their schools finishing in the top two. Dubai English Speaking School (DESS) did just enough to hold off British School of Al Khubairat (BSAK) to be crowned champions by just four points. St Christopher’s Bahrain finished third with 72 points.
+
+For DESS, it was a fine performance, winning the athletics, swimming and netball tournaments. On the track and field, Nick Fritz won a gold in the 75m before setting a new school record of 21.02 seconds in the 150m. There was also success for James Linton in the turbo javelin after a winning distance and a school record of 25.40m. </p>
+            </div>
+        </div>
+
+        <!--3rd Achievement--->
+
+        <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3">
+            Won best primary school award<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement3" class="collapse">
+            
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="certificate.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+              <h5 class="text-left text-success text-capitalize">Won best primary school in the uae
+                </h5>
+                <p>Dess has won the best primary school in the whole uae.In 2019 december 19th Dess  had won the best primary school in the uae by schools compared.</p>
+            </div>
+        </div>
+
+    </div>
+    <div id="contact_us"></div>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7217.919536628216!2d55.317417000000006!3d25.23828!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6b173d5880a201e!2sDESS%20-%20Dubai%20English%20Speaking%20School!5e0!3m2!1sen!2sro!4v1628920934327!5m2!1sen!2sro" width="100%" height="750" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             <div>
                 <p>Principal Name:
                 <br>
@@ -72,6 +159,6 @@ min.css">
                 <h3>@dubaienglishspeakingschool</h3< /a>
         </div>
             </div>
-        </section>
-    </body>
+</body>
+
 </html>
