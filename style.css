@@ -1,9 +1,8 @@
-
-html {
- scroll-behavior: smooth;
-}
 body{
     text-align: center;
+}
+html {
+ scroll-behavior: smooth;
 }
 
 #map iframe
@@ -83,7 +82,6 @@ height: 30px;
 margin-left: 20px;
 }
 
-
 #achievementsID{
  padding-bottom: 10px;
 }
@@ -107,19 +105,42 @@ float: right;
 {
 color: #ff7700;
 }
-.navbar-inverse my_nav_bar{
-    position: sticky;
-top: 0;
-    z-index: 999;
+
+.environment_li
+{
+  margin-top: 13px;
 }
-menu{
-     list-style: none;
-    font-family: sans-serif;
-    position: fixed;
-    top: 0px;
-    margin-top: 0px;
-    z-index: 1;
-    cursor: pointer;
-    width: 100%;
+
+.environment_li h4
+{
+    border-bottom: 1px solid white;
+    padding: 8px;
 }
+
+.environment_li img
+{
+  border-radius: 25px;
+  height: 250px;
+}
+
+.environment_li p
+{
+  margin-top:10px;
+}
+
+.header_entrepreneur
+{
+  line-height: 2;
+}
+
+.book
+{
+  cursor: pointer;
+}
+
+.book hr
+{
+  margin-bottom: 10px;
+}
+
 
