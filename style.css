@@ -10,11 +10,11 @@ html {
     padding-top: 5px;
 }
 
-.contact_1 h3
+#contact_1 h3
 {
     display: inline;
 }
-.contact_1 a
+#contact_1 a
 {
     text-shadow: none;
 }
