@@ -1,8 +1,7 @@
 
 html {
- scroll-behavior: smooth;
-}
-
+  scroll-behavior: smooth;
+ }
 #map iframe
 {
     width: 50%;
@@ -10,20 +9,20 @@ html {
     padding-top: 5px;
 }
 
-#contact_1 h3
+.contact_1 h3
 {
     display: inline;
 }
-#contact_1 a
+.contact_1 a
 {
     text-shadow: none;
 }
 
-#contact_us{
-  height: 20px;
-  background-color:white;
-  }
-
+#footer{
+height: 20px;
+background-color:white;
+}
+ 
 input
 {
     background: grey
@@ -51,7 +50,7 @@ height: 30px;
 
 /* Clearfix (clear floats) */
 .row::after {
-  content: "";
+  content: "Clearfix";
   clear: both;
   display: table;
 }
@@ -62,7 +61,6 @@ height: 30px;
   width: 33.33%;
   padding: 5px;
   border: 1px solid #c7c7c7;
-    height:550px;
 }
 
 .travel_mainDiv img
@@ -79,6 +77,10 @@ height: 30px;
 .travel_mainDiv h5 , .travel_mainDiv p
 {
 margin-left: 20px;
+}
+
+#aluminiList img{
+height:250px;
 }
 
 #achievementsID{
@@ -142,4 +144,20 @@ color: #ff7700;
   margin-bottom: 10px;
 }
 
+.modal-content
+{
+  margin-top: 100px;
+}
 
+.img_modal
+  {
+    display: inline-block;
+  }
+.p_modal
+  {
+      margin-top: 10px;
+}
+.modal-body
+{
+    text-align: center
+}
