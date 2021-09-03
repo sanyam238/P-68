@@ -48,9 +48,9 @@ height: 30px;
   border: none;
 }
 
-/* Clearfix (clear floats) */
+
 .row::after {
-  content: "Clearfix";
+
   clear: both;
   display: table;
 }
@@ -61,6 +61,7 @@ height: 30px;
   width: 33.33%;
   padding: 5px;
   border: 1px solid #c7c7c7;
+height: 500px;
 }
 
 .travel_mainDiv img
